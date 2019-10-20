@@ -34,7 +34,7 @@ class PostForm extends Component {
     render() {
         return (
             <div>
-                <h1>Add Post</h1>
+                <h1>ToDoosey</h1>
                 <form onSubmit={this.onSubmit}>
                     <div>
                         <label>Title: </label><br />

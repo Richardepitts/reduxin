@@ -14,12 +14,12 @@ class App extends Component {
     <Provider store={store}>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+        <img src={require('./images/Thinker.png' )} className="App-logo" alt="logo"/>
+        <Postform />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Add Your Todos then do them til done!
         </p>
-
-          <Postform />
           <hr/>
           <Posts />
   
