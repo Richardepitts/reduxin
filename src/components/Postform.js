@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createPost } from '../actions/postActions'
+import './components.css';
 
 class PostForm extends Component {
     constructor(props) {
@@ -34,18 +35,17 @@ class PostForm extends Component {
     render() {
         return (
             <div>
-                <h1>ToDoosey</h1>
                 <form onSubmit={this.onSubmit}>
                     <div>
                         <label>Title: </label><br />
                         <input type="text" name="title" onChange={this.onChange}
-                        value={this.state.title} />
+                        value={this.state.title} class="Title"/>
                     </div>
                     <br/>
                     <div>
                         <label>Body: </label><br />
                         <textarea name="body" onChange={this.onChange}
-                        value={this.state.body} />
+                        value={this.state.body} class="Body" />
                     </div>
                     <br/>
                     <button type="submit">Submit</button>
