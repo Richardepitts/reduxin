@@ -19,7 +19,7 @@ class App extends Component {
         <img src={require('./images/Thinker.png' )} className="App-logo" alt="logo"/>
         <SubTitle />
         <Postform />
-          <Posts />
+        <Posts />
       </header>
     </div>
     </Provider>

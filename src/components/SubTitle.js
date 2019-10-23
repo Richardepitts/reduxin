@@ -5,7 +5,7 @@ export default class SubTitle extends Component {
         return (
             <div>
                 <p>
-                    Add Your Todos then do them til done!
+                    Things to do until Done
                 </p>
             </div>
         )

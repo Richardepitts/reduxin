@@ -8,6 +8,7 @@ import { fetchPosts } from '../actions/postActions';
         this.props.fetchPosts();
     }
 
+    //So if there is a new post, unshift
     componentWillReceiveProps(nextProps) {
         if(nextProps.newPost) {
             this.props.posts.unshift(nextProps.newPost)
