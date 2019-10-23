@@ -10,7 +10,7 @@ class PostForm extends Component {
         this.state = {
             title: '',
             body: ''
-    };
+        };
 
     this.onChange = this.onChange.bind(this)
     this.onSubmit = this.onSubmit.bind(this)

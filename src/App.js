@@ -14,6 +14,7 @@ import store from './store'
 class App extends Component {
   render() {
   return (
+    <Router>
     <Provider store={store}>
     <div className="App">
       <header className="App-header">
@@ -25,6 +26,7 @@ class App extends Component {
       </header>
     </div>
     </Provider>
+    </Router>
     );
   }
 }
