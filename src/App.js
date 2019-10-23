@@ -7,6 +7,8 @@ import SubTitle from './components/SubTitle'
 import Posts from './components/Posts'
 import Postform from './components/Postform'
 
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import store from './store'
 
 class App extends Component {
